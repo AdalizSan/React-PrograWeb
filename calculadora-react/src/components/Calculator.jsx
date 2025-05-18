@@ -27,8 +27,8 @@ return (
     <div className="display">{input || '0'}</div>
     <div className="buttons">
         <button onClick={handleClear} className="clear">AC</button>
-        <div></div> {/* Espacio vacío para reemplazar el botón ± */}
-        <div></div> {/* Espacio vacío para reemplazar el botón % */}
+        <div></div>  
+        <div></div>  
         <button onClick={() => handleClick('/')} className="operator">÷</button>
 
         <button onClick={() => handleClick('7')} className="number">7</button>
